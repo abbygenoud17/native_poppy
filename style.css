@@ -1,0 +1,446 @@
+*{
+    margin: unset;
+    box-sizing: border-box;
+    clear: both;
+}
+
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f48b7f;
+    line-height: 3.5px;
+    align-items: center;
+    padding: 0 100px;
+}
+
+
+.encabezado{
+    color: white;
+    text-align: right;
+    font: 12px "Barlow Condensed", sans-serif;
+    /* margin-right: 80px; */
+}
+
+.ente{
+    transform: translateY(10px);
+}
+
+.encabezado a{
+    margin-right: 20px;
+}
+
+
+.nativefoto{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+h2{
+    color: white;
+    background-color: #f9b7a9;
+    width: fit-content;
+    text-align: center;
+    font-size: 31.9999px;
+    font-family: Muli, sans-serif;
+    font-weight: 540;
+    letter-spacing: .04em;
+    line-height: 1.4;
+    margin: 0 0 0.5em;
+}
+
+#seccionuno{
+    background-image: url(https://cdn.shopify.com/s/files/1/1358/2883/files/native-poppy-flower-wall-header-image-image-001_4472x.jpg?v=1614771828);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    margin: auto;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+button{
+    font-weight: lighter;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 48px;
+
+    color: white;
+    background-color: #e8636f;
+    font-family: "Muli", sans-serif;
+    border-radius: 2px;
+    letter-spacing: .04em;
+    border: none;
+    margin: 0px;
+    font-weight: 400;
+    top: -1px;
+    position: relative;
+    font-size: 15px;
+    width: fit-content;
+}
+
+button:hover{
+    background-color: #d44955;
+}
+
+#secciondos{
+    background-color: white;
+    text-align: center;
+    clear: both;
+    min-height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 630px;
+}
+
+#pe{
+    color: #685a5c;
+    font: 19px;
+    font-family: "Muli", sans-serif;
+    line-height: 25px;
+}
+
+#secciontres{
+    background-image: url(https://cdn.shopify.com/s/files/1/1358/2883/files/native-poppy-how-it-works-header-image-002_4472x.jpg?v=1614771843);
+    background-size: cover;
+    width: 100%;
+    clear: both;
+    min-height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+#seccioncuatro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    clear: both;
+    margin-top: 65px;
+    min-height: 300px;
+}
+
+.tresImagenesContainer{
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    text-align: center;
+    margin-bottom: 0.25em;
+    min-height: 1px;
+    vertical-align: top;
+}
+
+#seccioncuatro p{
+    color: #685a5c;
+    font-size: 14px;
+    font-family: "Barlow Condensed", sans-serif;
+    margin-top: 25px;
+    max-width: 300px;
+}
+
+#seccioncuatro h4{
+    color: #685a5c;
+    font-weight: bolder;
+    font: 16px;
+    font-family: sans-serif;
+}
+
+#seccioncinco{
+    text-align: center;
+    min-height: 365px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estrella{
+    align-items: left;
+    transform: translateX(-370px);
+}
+
+.segundoboton{
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    transform: translateX(-70px);
+}
+
+#seccionseis{
+    background-image: url(https://cdn.shopify.com/s/files/1/1358/2883/files/native-poppy-what-you-get-header-image-004_4472x.jpg?v=1614771849);
+    background-size: cover;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#seccionsiete{
+    text-align: center;
+    min-height: 600px;
+    display: flexbox;
+    justify-content: center;
+    margin-top: 120px;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span{
+    color: #e8636f;
+}
+
+.ultimotitulo{
+    color: #e8636f;
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 0 0 17.6327px;
+    letter-spacing: .04em;
+    font-weight: 565;
+    align-items: center;  
+}
+
+#seccionsiete p{
+    color: #685a5c;
+    font-family: "Muli", sans-serif;
+    font-size: 20px;
+    content: 518x526;
+    line-height: 60px;
+    text-align: center;
+}
+
+#seccionsiete h3{
+    font-size: xx-large;
+    font-weight: 400;
+    align-items: center;  
+}
+
+#seccionocho{
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+#seccionocho h2{
+    text-decoration: none;
+    background-color: white;
+    color: #685a5c;
+    font-size: 2em;
+    font-family: "Barlow Condensed", sans-serif;
+    align-items: center;
+    margin-left: 35%;
+    
+}
+
+.prodscontainer{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.productos a{
+    color: #685a5c;
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.productos p{
+    color: #685a5c;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.prodscontainer a:hover{
+    color: #e8636f;
+}
+
+#seccionnueve{
+    background-image: url(https://cdn.shopify.com/s/files/1/1358/2883/files/native-poppy-testimonial-header-image-003_4472x.jpg?v=1614771847);
+    background-size: cover;
+    width: 100%;
+    clear: both;
+    min-height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+#secciondiez{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    flex-direction: column;
+    margin-top: 200px;
+
+}
+
+#secciondiez p{
+    color: #685a5c;
+    font-family: "Muli", sans-serif;
+    font-size: 17px;
+    align-items: center;  
+    justify-content: center;
+    line-height: 30px;
+    text-align: center;
+    max-width: 768px;
+}
+
+#secciondiez span{
+    font-family: "Muli", sans-serif;
+    font-size: 17px;
+    align-items: center;  
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+#secciononce{
+    background-image: url(https://cdn.shopify.com/s/files/1/1358/2883/files/native-poppy-sign-up-header-image-006_1512x.jpg?v=1614771889);
+    background-size: cover;
+    width: 100%;
+    clear: both;
+    min-height: 480px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+#secciondoce{
+    height: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    flex-direction: column;
+    margin-top: 200px;
+    font-size: 20.5px;
+}
+
+#secciondoce p{
+    color: #685a5c;
+    font-family: "Muli", sans-serif;
+    align-items: center;  
+    justify-content: center;
+    line-height: 30px;
+    text-align: center;
+    max-width: 768px;
+}
+
+#secciondoce span{
+    font-family: "Muli", sans-serif;
+    align-items: center;  
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#secciondoce h3{
+    font-size: x-large;
+    color: #d44955;
+    font-weight: 400;
+    align-items: center;  
+    font-family: sans-serif;
+}
+
+footer{
+    background-color: #f48b7f;
+    height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+footer p{
+    color: white;
+    line-height: 25px;
+}
+
+.separados{
+    margin-top: 30px;
+}
+
+.redes{
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+footer h3{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.pmargen{
+    max-width: 390px;
+    text-align: center;
+}
+
+input{
+    width: 280px;
+    height: 50px;
+    border-color: #cacaca;
+    border-style: none;
+    margin-right: 10px;
+}
+
+input:hover{
+    border: black;
+}
+
+.barra{
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer a{
+    color: white;
+    margin-left: 30px;
+    font-size: medium;
+}
+
+.ultimope{
+    margin-top: 15px;
+}
